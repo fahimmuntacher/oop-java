@@ -1,13 +1,19 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+public class Main{
+    public static void main(String[] args){
+        Teacher t1 = new Teacher();
+        t1.gender = "Male";
+        t1.name = "Mustafizur Rahman";
+        t1.phone = 161215555;
+        System.out.println("Name: "+ t1.name);
+        System.out.println("Phone: " + t1.phone);
+        System.out.println("Gender: " +t1.gender);
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+        Teacher t2 = new Teacher();
+        t2.gender = "Female";
+        t2.name = "Rabeya Khatun";
+        t2.phone = 1877556655;  
+        System.out.println("Name: "+ t2.name);
+        System.out.println("Phone: " + t2.phone);
+        System.out.println("Gender: " +t2.gender);
     }
 }
