@@ -11,7 +11,7 @@ public class Main{
         Teacher t2 = new Teacher();
         t2.gender = "Female";
         t2.name = "Rabeya Khatun";
-        t2.phone = 1877556655;  
+        t2.phone = 1877556655;
         System.out.println("Name: "+ t2.name);
         System.out.println("Phone: " + t2.phone);
         System.out.println("Gender: " +t2.gender);
